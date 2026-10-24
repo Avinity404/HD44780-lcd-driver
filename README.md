@@ -1,5 +1,10 @@
 # HD44780 Driver
 
+<p align="center">
+  <img src="images/lcd-16x2-working.jpg" width="48%" alt="Working 16x2 LCD display">
+  <img src="images/lcd-20x4-working.jpg" width="48%" alt="Working 20x4 LCD display">
+</p>
+
 A portable C driver for character LCDs using an **HD44780-compatible controller**. It uses a 4-bit, write-only interface; GPIO access and timing are supplied by the application through a small Hardware Abstraction Layer (HAL).
 
 
@@ -9,7 +14,6 @@ A portable C driver for character LCDs using an **HD44780-compatible controller*
 > **Version:** 1.0 [(see more in table below)](#version-history)
 
 ## Contents
-
 
 -   [Features and limitations](#Features-and-limitations)
 -   [Repository Structure](#repository-structure)
@@ -47,12 +51,10 @@ The portable driver consists of `HD44780.h` and `HD44780.c`. Platform-specific H
 ```
 .
 ├── HD44780.h
-├── HD44780.c
-├── main.c
+├── HD44780.c 
 ├── examples/
+├── images/
 └── wiring-examples/
-    ├── wiring-16x2.png
-    └── wiring-20x4.png
 ```
 
 ## Wiring
